@@ -15,6 +15,10 @@ public class Projeto_1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        javax.swing.SwingUtilities.invokeLater(()->{
+            new TelaPrincipal().setVisible(true);
+//            new TelaCadastro().setVisible(true);
+        });
     }
     
 }
